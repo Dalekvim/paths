@@ -1,2 +1,4 @@
 C:\Users\Vijayvinod\Desktop\Node.js\Paths\obj\Debug\Paths.njsprojAssemblyReference.cache
 C:\Users\Vijayvinod\Desktop\Node.js\Paths\bin\Microsoft.NodejsTools.WebRole.dll
+C:\Users\Vijayvinod\Desktop\Github Websites\Paths\obj\Debug\Paths.njsprojAssemblyReference.cache
+C:\Users\Vijayvinod\Desktop\Github Websites\Paths\bin\Microsoft.NodejsTools.WebRole.dll
