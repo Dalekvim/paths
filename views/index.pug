@@ -1,26 +1,40 @@
 extends layout
 
 block content
-  h1(id='title')= title
-  h2 Introduction
-  p
-    | There are a lot of people out there that have little to no control
-    | over themselves, but the problem is, society only helps those who
-    | could pose a threat to it. Paths is about Hail, a girl trapped in her
-    | own mind, struggling to get free.
-  p(style='text-indent: 2em')
-    | I got the idea for this while I was learning psychocology and a
-    | particular question got me thinking: 
-    b What do you really want? 
-    | Try and think about it for a second. Make sure
-    | it's something you want but don't need. I'm sure that you came up
-    | with one or two things but it's unlikely you got much more than that
-    | (well done if you did). Our boy Sigmund Freud had an idea that the
-    | reason this was may be due to the fact that our ID (what
-    | he called the part of the mind that controls what we want) is part
-    | of our subconscious which means it's not something we can access
-    | or in most people's case block off on purpose.
-  p(style='text-indent: 2em')
-    | Some of us have more access to our IDs than others, but Hail, she
-    | has none; she lives life needing but never wanting. Imagine that:
-    | never knowing what you want.
+  header
+    nav(class='navbar navbar-expand-lg navbar-light bg-light')
+      a(class='navbar-brand', href='#')
+        img(src='/images/logo.png', style='width: 5rem; border-radius: 0.25rem;', alt='logo')
+      div(class="dropdown")
+        button(class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false")
+          | Chapters
+        div(class="dropdown-menu" aria-labelledby="dropdownMenuButton")
+          a(class="dropdown-item" href="#")
+            | Chapter 1
+    h1(id='title')= title
+  main
+    div(class='content')
+      h2 Introduction
+      p
+        | There are a lot of people out there that have little to no control
+        | over themselves. Some of them are mad and can be seen as bad,
+        | but most are just sad.
+      p(style='text-indent: 2em')
+        | Path and Hail were complete opposites: after
+        | the death of her parents Hail let herself fall into her subconscious
+        | where she could see everything she could ever want. This came at a
+        | price; the Path in her subconscous had to take her place.
+        | Path lived life unsure of anything; without a Path of his own, there
+        | was no way for him to feel and no way for him to dream...
+      p(style='text-indent: 2em')
+        | I got the idea for this while I was learning psychocology and a
+        | particular question got me thinking: 
+        b What do you really want? 
+        | Try and think about it for a second. Make sure
+        | it's something you want but don't need. I'm sure that you came up
+        | with one or two things but it's unlikely you got much more than that
+        | (well done if you did). Our boy Sigmund Freud had an idea that the
+        | reason this was may be due to the fact that our ID (what
+        | he called the part of the mind that controls what we want) was part
+        | of the subconscious meaning it couldn't be accessed on purpose.
+        | But what if it could?

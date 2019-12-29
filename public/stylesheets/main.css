@@ -11,6 +11,15 @@ h2, p {
     padding-right: 3rem;
 }
 
-@media screen and (max-width: 1024px) {
+#dropdownMenuButton {
+    height: 4rem;
+    width: 10rem;
+}
 
+@media screen and (min-width: 62rem) {
+    .content {
+        position: absolute;
+        right: 20%;
+        width: 60%;
+    }
 }
